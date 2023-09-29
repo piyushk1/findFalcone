@@ -37,9 +37,10 @@ To run the FindFalcone React project, follow these steps:
 ```
 
 4. **Interact with the Application:**
-   Once the application is running, you can interact with it by following these steps:
 
-Use the interactive UI to select planets to search.
-Choose vehicles for the mission wisely, as each vehicle has different speed and capacity.
-Click the "Find Falcone!" button to initiate the mission.
-The application will calculate the time it takes to complete the mission and inform you if you were successful in locating Queen Al Falcone.
+Once the application is running, you can interact with it by following these steps:
+
+- Use the interactive UI to select planets to search.
+- Choose vehicles for the mission wisely, as each vehicle has different speed and capacity.
+- Click the "Find Falcone!" button to initiate the mission.
+- The application will calculate the time it takes to complete the mission and inform you if you were successful in locating Queen Al Falcone.
