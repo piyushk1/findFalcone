@@ -249,7 +249,7 @@ function Game() {
     setSelectedPlanets([]);
     setSelectedVehicles([]);
     setTimeTaken(0);
-    setCardData([
+    const initialCardData = [
       {
         id: 1,
         title: "Planet One",
@@ -274,9 +274,8 @@ function Game() {
         selectedPlanet: null,
         selectedVehicle: null,
       },
-    ]);
-
-    window.location.reload();
+    ];
+    setCardData(initialCardData);
   };
 
   return (
