@@ -1,0 +1,45 @@
+/* Landing.css */
+.footer {
+  background-color: #cdc1ff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 16px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.github-link {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 5px;
+  display: block;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  transform: scale(1.1);
+}
+
+.coding-problem-link {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.coding-problem-link:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    margin-top: 100px;
+  }
+}
