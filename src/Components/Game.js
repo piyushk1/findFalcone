@@ -275,6 +275,8 @@ function Game() {
         selectedVehicle: null,
       },
     ]);
+
+    window.location.reload();
   };
 
   return (

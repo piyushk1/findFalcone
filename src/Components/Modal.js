@@ -1,6 +1,5 @@
 import React from "react";
 import "./Modal.css";
-
 const Modal = ({ isOpen, onClose, planetName, timeTaken, onRestart }) => {
   if (!isOpen) {
     return null;
