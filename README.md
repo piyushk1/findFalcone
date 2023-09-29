@@ -15,7 +15,23 @@ You can access the FindFalcone web application by clicking [here](https://exampl
 To run the FindFalcone React project, follow these steps:
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/yourusername/find-falcone.git
+
    cd find-falcone
    ```
+
+2. **Install Dependencies:**
+   To install the necessary dependencies, open your terminal and run the following command:
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the Application.**
+   After installing the dependencies, start the application by running the following command:
+
+```bash
+  npm start
+```
