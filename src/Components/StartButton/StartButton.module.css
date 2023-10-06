@@ -1,0 +1,25 @@
+.buttoncontainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.startbutton {
+  background-color: #a1ccd1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effect */
+.startbutton:hover {
+  background-color: #a1ccd1;
+  transform: scale(1.05);
+}
+
+.startbutton:active {
+  transform: scale(0.95);
+}

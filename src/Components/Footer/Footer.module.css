@@ -1,0 +1,44 @@
+.footer {
+  background-color: #cdc1ff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.footertext {
+  font-size: 16px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.githublink {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 5px;
+  display: block;
+  font-weight: bold;
+}
+
+.githublink:hover {
+  transform: scale(1.1);
+}
+
+.codingproblemlink {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.codingproblemlink:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    margin-top: 100px;
+  }
+}

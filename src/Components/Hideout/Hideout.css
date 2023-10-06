@@ -1,0 +1,50 @@
+.hideOut-container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.hideout-title {
+  font-size: 24px;
+  color: #a1ccd1;
+  margin-bottom: 20px;
+}
+
+.hideout-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hideout-card {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+
+.hideout-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hideout-card:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive styles  */
+@media screen and (max-width: 600px) {
+  .hideout-card {
+    width: calc(50% - 20px);
+    margin: 5px;
+  }
+
+  .hideout-title {
+    font-size: 20px;
+  }
+}
